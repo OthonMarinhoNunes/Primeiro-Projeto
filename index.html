@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Primeiro Projeto - Calculadora</title>
+</head>
+<body>
+    <div id="div01">
+        <h1>Olá, Vamos Calcular?</h1>
+    </div>
+    <div id="div02">
+        <input id="entrada01" type="number" placeholder="Digite um número"><br><br>
+        <input id="entrada02" type="number" placeholder="Digite um número"><br><br>
+        <button class="operadores" onclick="soma()">+</button>
+        <button class="operadores"onclick="subtracao()">-</button>
+        <button class="operadores"onclick="multiplicacao()">*</button>
+        <button class="operadores"onclick="divisao()">/</button><br><br>
+        <input id="resposta" placeholder="Resultado" readonly>
+    </div>
+    <!--------------------------------------------------------------------------->
+        <script src="./main.js"></script>
+</body>
+</html>
